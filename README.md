@@ -1,5 +1,6 @@
 ####Joined:
 -----------
+```
 Hibernate: insert into domain_root (domain_value, domain_root_id) values (?, ?)
 Hibernate: insert into parent_document (document_type, parent_value, parent_id) values (?, ?, ?)
 Hibernate: insert into parent_document (document_type, parent_value, parent_id) values (?, ?, ?)
@@ -42,9 +43,11 @@ Hibernate: select parentdocu0_.domain_root_domain_root_id as domain_r1_4_0_, par
 0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
 12667 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
+```
 
 ####Single Table:
 -----------------
+```
 Hibernate: insert into single_js_domain_root (domain_value, domain_root_id) values (?, ?)
 Hibernate: insert into single_js_parent_document (document_type, parent_value, dtype, parent_id) values (?, ?, 'single_js_parent_document', ?)
 Hibernate: insert into single_js_parent_document (document_type, parent_value, dtype, parent_id) values (?, ?, 'single_js_parent_document', ?)
@@ -86,3 +89,4 @@ Hibernate: select parentdocu0_.single_js_domain_root_domain_root_id as single_j1
 0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
 11041 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
+```
